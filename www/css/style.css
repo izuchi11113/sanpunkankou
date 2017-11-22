@@ -5,12 +5,19 @@
     margin: 0px auto;
 }
 
+.reroadButton{
+    width:40px;
+    height:40px;
+}
+.status_bar {
+    height: 20px;
+}
+
 h1 {
     color: red;
 }
 
 html,body {
-    /*box-sizing: border-box;*/
     margin: 100%;
     height: 100%;
     margin: 0;
@@ -46,35 +53,9 @@ img {
 
 #street-view {
     height: 100%;
+    /*display: inline;*/
 }
 
-.button {
-    width: 120px;
-    height: 70px;
-    font-size: 1.5em;
-    display: inline-block;
-    padding: 20px;
-    margin-bottom: 10px;
-    background: #668ad8;
-    color: #FFF;
-    border: initial;
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
-    z-index: 1;
-}
 
-.button2 {
-    width: 120px;
-    height: 70px;
-    font-size: 1.5em;
-    display: inline-block;
-    padding: 20px;
-    margin-bottom: 10px;
-    background: #668ad8;
-    color: #FFF;
-    border: initial;
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
-}
 
-z-index: 1;
+
