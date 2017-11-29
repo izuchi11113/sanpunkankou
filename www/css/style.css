@@ -53,7 +53,6 @@ img {
 
 #street-view {
     height: 100%;
-    /*display: inline;*/
 }
 
 #reload {
@@ -64,7 +63,7 @@ img {
 }
 /*更新ボタン*/
 .reload_button {
-  bottom: 20px;
+  /*bottom: 20px;*/
   width: 60px;
   height: 60px;
  
@@ -79,7 +78,7 @@ img {
 }
 /*更新ボタン*/
 .back_button {
-  bottom: 20px;
+  /*bottom: 20px;*/
   width: 60px;
   height: 60px;
  
