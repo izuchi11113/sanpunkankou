@@ -9,8 +9,24 @@
     <script src="js/ncmb-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
 </head>
+<body>
+    <div id="street-view"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcln0RPWGU2ykJY7pdu4PO760BdELaMSg&callback=initialize"></script>
+    <div id="reload">
+      <input type='image' src='image/reload.png' alt='reload_button' class='reload_button' onClick='location.reload();' />
+    </div>
+    <div id="back">
+      <a href="index.html"><input type='image' src='image/back.png' alt='back_button' class='back_button'/> </a>
+    </div>
 
-<body onload="initialize()">
+    
+    
+</body>
+
+
+
+
+<!--<body onload="initialize()">
 <div class="status_bar"></div>
 <a href="view.html">
     <img src="image/reroad.jpg" alt="リロード" class="reroadButton"/>
@@ -19,6 +35,6 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcln0RPWGU2ykJY7pdu4PO760BdELaMSg&callback=initialize">
     </script>
     
-</body>
+</body>-->
 
 </html>
